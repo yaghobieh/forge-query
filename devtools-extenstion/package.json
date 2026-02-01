@@ -1,0 +1,18 @@
+{
+  "name": "forge-query-devtools-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Forge Query DevTools Chrome/Safari Extension",
+  "scripts": {
+    "build": "npm run build:scripts && npm run build:icons",
+    "build:scripts": "esbuild src/background.ts src/content.ts src/devtools.ts src/panel.ts --bundle --outdir=dist --format=iife --target=es2020",
+    "build:icons": "node scripts/generate-icons.js",
+    "watch": "esbuild src/background.ts src/content.ts src/devtools.ts src/panel.ts --bundle --outdir=dist --format=iife --target=es2020 --watch",
+    "package": "npm run build && node scripts/package.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "sharp": "^0.33.0"
+  }
+}
+

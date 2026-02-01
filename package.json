@@ -1,0 +1,65 @@
+{
+  "name": "@forgedevstack/forge-query",
+  "version": "1.0.0",
+  "description": "Powerful data fetching and caching library for React with DevTools support",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./devtools": {
+      "import": "./dist/devtools/index.mjs",
+      "require": "./dist/devtools/index.js",
+      "types": "./dist/devtools/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:all": "npm run build && npm run build:extension",
+    "build:extension": "cd devtools-extension && npm run build",
+    "dev": "tsup --watch",
+    "dev:test-app": "cd test-app && npm run dev",
+    "lint": "eslint src --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "query",
+    "data-fetching",
+    "cache",
+    "hooks",
+    "forge",
+    "devtools"
+  ],
+  "author": "ForgeDevStack",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forgedevstack/forge-query"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "@forgedevstack/bear": "^1.0.6",
+    "@forgedevstack/grid-table": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "tailwindcss": "^3.4.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}
+

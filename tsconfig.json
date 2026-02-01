@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": true,
+    "declarationMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": ["src/core/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@cache/*": ["src/cache/*"],
+      "@utils/*": ["src/utils/*"],
+      "@types": ["src/types/index.ts"],
+      "@constants": ["src/constants/index.ts"],
+      "@devtools/*": ["src/devtools/*"]
+    }
+  },
+  "include": ["src"]
+}
+

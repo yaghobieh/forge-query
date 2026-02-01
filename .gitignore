@@ -1,0 +1,13 @@
+node_modules
+dist
+package-lock.json
+.idea
+public
+
+/devtools-extentions/dist
+/devtools-extentions/node_modules
+
+/test-app/dist
+/test-app/node_modules
+
+*/.npmrc

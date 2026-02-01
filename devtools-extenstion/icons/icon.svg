@@ -1,0 +1,43 @@
+<svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#1f2937"/>
+  
+  <!-- Q circle -->
+  <circle
+    cx="58"
+    cy="55"
+    r="28"
+    stroke="url(#iconGradient)"
+    stroke-width="8"
+    fill="none"
+    stroke-linecap="round"
+  />
+  
+  <!-- Q tail -->
+  <path
+    d="M78 75 L98 98"
+    stroke="url(#iconGradient)"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+  
+  <!-- Snake head -->
+  <circle cx="38" cy="42" r="7" fill="#ec4899"/>
+  <circle cx="36" cy="40" r="2" fill="#1f2937"/>
+  
+  <!-- Tongue -->
+  <path
+    d="M29 42 Q25 39 29 35"
+    stroke="#ec4899"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+</svg>

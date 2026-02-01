@@ -1,0 +1,2 @@
+export { QueryCache } from './QueryCache';
+
