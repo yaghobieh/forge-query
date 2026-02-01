@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>🐍 Powerful data fetching and caching library for React</strong>
+  <strong>Powerful data fetching and caching library for React</strong>
 </p>
 
 <p align="center">
@@ -34,13 +34,13 @@
 
 ## Features
 
-- 🚀 **Simple API** — Just `useQuery` and `useMutation`
-- 💾 **Smart Caching** — Automatic with configurable stale/cache times
-- 🔄 **Background Sync** — Auto-refetch on focus, reconnect, and intervals
-- ⚡ **Optimistic Updates** — Instant UI feedback
-- 🛠️ **DevTools** — In-app panel + Chrome extension
-- 📦 **Tiny** — ~12KB gzipped
-- 🔌 **Flexible** — Works with fetch, axios, graphql, or any async function
+- **Simple API** — Just `useQuery` and `useMutation`
+- **Smart Caching** — Automatic with configurable stale/cache times
+- **Background Sync** — Auto-refetch on focus, reconnect, and intervals
+- **Optimistic Updates** — Instant UI feedback
+- **DevTools** — In-app panel + Chrome extension
+- **Tiny** — ~12KB gzipped
+- **Flexible** — Works with fetch, axios, graphql, or any async function
 
 ---
 
@@ -147,10 +147,10 @@ Get a dedicated DevTools panel in Chrome:
 3. Load in Chrome: Extensions → Developer Mode → Load Unpacked
 
 **Features:**
-- 📊 View all queries and their status
-- 📝 Activity logs with timestamps
-- 💾 Cache statistics and data preview
-- 🔄 Refetch, invalidate, or remove queries
+- View all queries and their status
+- Activity logs with timestamps
+- Cache statistics and data preview
+- Refetch, invalidate, or remove queries
 
 <p align="center">
   <img src="./docs/assets/devtools-screenshot.png" alt="DevTools Screenshot" width="600" />

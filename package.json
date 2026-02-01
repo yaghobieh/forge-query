@@ -42,10 +42,17 @@
   ],
   "author": "ForgeDevStack",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/forgedevstack/forge-query"
+    "url": "https://github.com/yaghobieh/forge-query"
   },
+  "bugs": {
+    "url": "https://github.com/yaghobieh/forge-query/issues"
+  },
+  "homepage": "https://forgedevstack.com/query",
   "peerDependencies": {
     "react": ">=16.8.0"
   },
